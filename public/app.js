@@ -22,7 +22,7 @@ const latlngs = [
     [48.86993336274516, 2.3280142476578813],
     [48.86834104280146, 2.330308418109664]
 ]
-const polygon = L.polygon(latlngs, {fill: false}).addTo(myMap);
+const polygon = L.polygon(latlngs, {color: 'blue', fill: false}).addTo(myMap);
 
 // create red pin marker
 

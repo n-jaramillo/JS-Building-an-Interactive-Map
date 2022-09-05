@@ -5,7 +5,10 @@ const myMap = L.map('map', {
 });
 
 // add openstreetmap tiles
-
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    minZoom: 15,
+    attribution: '© OpenStreetMap'
+}).addTo(myMap);
 
 // create and main add geolocation marker
 
